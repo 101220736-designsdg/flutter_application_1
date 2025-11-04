@@ -10,7 +10,7 @@ class RockPaperScissorsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Rock-Paper-Scissors',
-      debugShowCheckedModeBanner: false,
+      
       home: RockPaperScissorsScreen(),
     );
   }
@@ -134,7 +134,7 @@ class _RockPaperScissorsScreenState extends State<RockPaperScissorsScreen> {
 
             SizedBox(height: 30),
 
-            // Score display
+            
             Text(
               'Your Score: $playerScore    Computer Score: $computerScore',
               style: TextStyle(
